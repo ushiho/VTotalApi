@@ -57,7 +57,6 @@ def main():
 	parser = argparse.ArgumentParser(description="Search from VirusTotal")
 	parser.add_argument("HashorPath", help="Enter the MD5 Hash or Path to File")
 	parser.add_argument("-s", "--search", action="store_true", help="Search VirusTotal")
-	# parser.add_argument("-v", "--verbose", action="store_true", dest="verbose", help="Turn on verbosity of VT reports")
 	
 	if len(sys.argv)<=2:
 		parser.print_help()
